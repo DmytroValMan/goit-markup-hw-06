@@ -399,7 +399,7 @@ header .link-logo {
 }
 
 .section-button {
-  width: 320px;
+  max-width: 320px;
   padding: 72px 0;
   margin: 0 auto;
   background-image: linear-gradient(
@@ -460,7 +460,7 @@ header .link-logo {
 
 @media only screen and (min-width: 768px) {
   .section-button {
-    width: 768px;
+    max-width: 768px;
     padding: 112px 0;
     margin: 0 auto;
     background-image: linear-gradient(
@@ -498,7 +498,7 @@ header .link-logo {
 
 @media only screen and (min-width: 1158px) {
   .section-button {
-    width: 1440px;
+    max-width: 1440px;
     padding: 188px 0;
     margin: 0 auto;
     background-image: linear-gradient(
@@ -792,6 +792,7 @@ header .link-logo {
     gap: 72px 24px;
     flex-wrap: wrap;
     align-items: baseline;
+    width: 584px;
   }
 }
 
@@ -803,6 +804,7 @@ header .link-logo {
   .footer-container {
     flex-wrap: nowrap;
     gap: 0;
+    width: 1158px;
   }
 }
 
@@ -952,7 +954,7 @@ header .link-logo {
 }
 
 .footer-form-button {
-  min-width: 165px;
+  width: 165px;
   height: 40px;
   display: flex;
   align-items: center;
@@ -966,8 +968,14 @@ header .link-logo {
   background-color: #4d5ae5;
   border: none;
   border-radius: 4px;
-
+  margin: 0 auto;
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+@media only screen and (min-width: minwidthpx) {
+  .footer-form-button {
+    min-width: 165px;
+  }
 }
 
 .subscribe-icon {
