@@ -407,19 +407,19 @@ header .link-logo {
       rgba(46, 47, 66, 0.7),
       rgba(46, 47, 66, 0.7)
     ),
-    url(../images/office-mobile@1x.jpg);
+    url(../images/hero/office-mobile@1x.jpg);
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
 }
 
-@media only screen and (min-device-pixel-ratio: 2), (min-resolution: 192dpi) {
+@media only screen and (min-resolution: 192dpi), (min-resolution: 2dppx) {
   .section-button {
     background-image: linear-gradient(
         rgba(46, 47, 66, 0.7),
         rgba(46, 47, 66, 0.7)
       ),
-      url(../images/office-mobile@2x.jpg);
+      url(../images/hero/office-mobile@2x.jpg);
   }
 }
 
@@ -468,19 +468,19 @@ header .link-logo {
         rgba(46, 47, 66, 0.7),
         rgba(46, 47, 66, 0.7)
       ),
-      url(../images/office-tablet@1x.jpg);
+      url(../images/hero/office-tablet@1x.jpg);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
   }
 
-  @media only screen and (min-device-pixel-ratio: 2), (min-resolution: 192dpi) {
+  @media only screen and (min-resolution: 192dpi), (min-resolution: 2dppx) {
     .section-button {
       background-image: linear-gradient(
           rgba(46, 47, 66, 0.7),
           rgba(46, 47, 66, 0.7)
         ),
-        url(../images/office-tablet@2x.jpg);
+        url(../images/hero/office-tablet@2x.jpg);
     }
   }
 
@@ -506,19 +506,19 @@ header .link-logo {
         rgba(46, 47, 66, 0.7),
         rgba(46, 47, 66, 0.7)
       ),
-      url(../images/office-desktop@1x.jpg);
+      url(../images/hero/office-desktop@1x.jpg);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
   }
 
-  @media only screen and (min-device-pixel-ratio: 2), (min-resolution: 192dpi) {
+  @media only screen and (min-resolution: 192dpi), (min-resolution: 2dppx) {
     .section-button {
       background-image: linear-gradient(
           rgba(46, 47, 66, 0.7),
           rgba(46, 47, 66, 0.7)
         ),
-        url(../images/office-desktop@2x.jpg);
+        url(../images/hero/office-desktop@2x.jpg);
     }
   }
 
